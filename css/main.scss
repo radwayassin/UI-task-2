@@ -298,3 +298,45 @@ body {
     }
   }
 }
+// Studio Section
+.studio {
+  padding: 2em 0;
+  .head-studio {
+    direction: rtl;
+    h5 {
+      text-align: right;
+      color: #fff;
+      margin-bottom: 1em;
+      font-size: 1.2em;
+    }
+    a {
+      text-decoration: none;
+      color: #6fa31b;
+      font-size: 0.9em;
+    }
+  }
+  .studio-card {
+    width: 11em;
+    background-color: #222;
+    border: none;
+    margin: 0.5em;
+    color: #ccc;
+    .card-body {
+      padding: 1rem;
+    }
+    .card-title {
+      font-size: 1em;
+    }
+    .card-list {
+      list-style: none;
+      display: inline-flex;
+      padding: 0;
+      direction: rtl;
+      text-align: right;
+      li {
+        font-size: 0.7em;
+        margin: 0.3em;
+      }
+    }
+  }
+}

@@ -323,4 +323,56 @@ body {
   top: 27%;
   left: 0;
 }
+
+.studio {
+  padding: 2em 0;
+}
+
+.studio .head-studio {
+  direction: rtl;
+}
+
+.studio .head-studio h5 {
+  text-align: right;
+  color: #fff;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.studio .head-studio a {
+  text-decoration: none;
+  color: #6fa31b;
+  font-size: 0.9em;
+}
+
+.studio .studio-card {
+  width: 11em;
+  background-color: #222;
+  border: none;
+  margin: 0.5em;
+  color: #ccc;
+}
+
+.studio .studio-card .card-body {
+  padding: 1rem;
+}
+
+.studio .studio-card .card-title {
+  font-size: 1em;
+}
+
+.studio .studio-card .card-list {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0;
+  direction: rtl;
+  text-align: right;
+}
+
+.studio .studio-card .card-list li {
+  font-size: 0.7em;
+  margin: 0.3em;
+}
 /*# sourceMappingURL=main.css.map */

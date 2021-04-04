@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <title>UI Task with Bootstrap</title>
     <!-- Required meta tags -->
@@ -16,7 +15,6 @@
     <link rel="stylesheet" href="css/own-carousel.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
     <!-- Header Section -->
     <section class="header">
@@ -269,6 +267,37 @@
             </div>
         </div>
     </section>
+    <!-- Studio Section -->
+    <section class="studio">
+        <div class="container-fluid">
+            <div class="row head-studio">
+                <div class="col-6">
+                    <h5>الاستديو</h5>
+                </div>
+                <div class="col-6">
+                    <a href="">المزيد</a>
+                </div>
+            </div>
+        </div>
+        <div class="own-2">
+            <div class="own-carousel__outer">
+                <div class="own-carousel">
+                    <div class="owl-carousel__item">
+                        <div class="card studio-card">
+                            <img class="card-img-top" src="images/studio.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">African Nations</h5>
+                                <ul class="card-list">
+                                    <li> 30 اكتوبر 2020</li>
+                                    <li> 30 مشاهدة </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Optional JavaScript -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
@@ -280,6 +309,16 @@
                     800: [3, 33],
                     600: [2, 49],
                     400: [1, 100]
+                },
+            });
+            document.querySelector(".own-2").ownCarousel({
+                itemPerRow: 5,
+                itemWidth: 19,
+                responsive: {
+                    1000: [4, 24],
+                    800: [3, 33]
+                    // 600: [2, 49],
+                    // 400: [1, 100]
                 },
             });
             responsive();
@@ -297,5 +336,4 @@
         crossorigin="anonymous"></script>
     <script src="js/own-carousel.min.js"></script>
 </body>
-
 </html>
