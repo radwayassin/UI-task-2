@@ -1,1 +1,70 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  background-color: #121212;
+  font-family: "Changa", sans-serif;
+}
+
+.header .head-logo img {
+  width: 12%;
+}
+
+.header .head-logo .noti-btn {
+  float: right;
+  border-radius: 50%;
+  margin-top: 2em;
+  padding: 0.4em 0.6em 0.3em;
+  color: #fff;
+  background: #bad111;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #bad111 0%, #bad111 37%, #6fa31b 57%, #6fa31b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bad111', endColorstr='#6fa31b',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+@media (max-width: 768px) {
+  .header .head-logo img {
+    width: 25%;
+  }
+  .header .head-logo .noti-btn {
+    margin-top: 1em;
+  }
+}
+
+.header .head-categories {
+  background-color: #333;
+  color: #f1f1f1;
+  overflow: hidden;
+  text-align: right;
+  direction: rtl;
+}
+
+.header .head-categories .cat-list {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0.2em 0.5em;
+  margin: 0;
+}
+
+.header .head-categories .cat-list li {
+  margin: 0 0.5em;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.header .head-categories .cat-list li i {
+  margin: 0.2em;
+}
+
+.header .head-categories .cat-list li.active {
+  color: #6fa31b;
+}
+
+@media (max-width: 768px) {
+  .header .head-categories {
+    overflow-x: scroll;
+  }
+}
+/*# sourceMappingURL=main.css.map */
