@@ -14,6 +14,7 @@ body {
   margin-top: 2em;
   padding: 0.4em 0.6em 0.3em;
   color: #fff;
+  border: 0;
   background: #bad111;
   /* Old browsers */
   /* FF3.6-15 */
@@ -176,5 +177,94 @@ body {
 .champions .champion-content .details a {
   color: #6fa31b;
   text-decoration: none;
+}
+
+.tournaments {
+  background-color: #222;
+  padding: 2em 0;
+  margin: 2em 0;
+}
+
+.tournaments .head-tour {
+  direction: rtl;
+}
+
+.tournaments .head-tour h5 {
+  text-align: right;
+  color: #fff;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.tournaments .head-tour a {
+  text-decoration: none;
+  color: #6fa31b;
+  font-size: 0.9em;
+}
+
+.tournaments .tour-card {
+  width: 20em;
+  border: 0;
+  background: #299a0b;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#299a0b), to(#085066));
+  background: linear-gradient(to right, #299a0b 0%, #085066 100%);
+  padding: 1em 0.5em;
+  border-radius: 10px;
+  text-align: right;
+  margin: 0 0.5em;
+}
+
+.tournaments .tour-card img {
+  width: 100%;
+}
+
+.tournaments .tour-card p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.tournaments .tour-card h6 {
+  font-size: 0.8em;
+}
+
+.tournaments .tour-card .teams-list {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+}
+
+.tournaments .tour-card .teams-list li {
+  margin: 0.5em;
+}
+
+.tournaments .tour-card .teams-list li .vs {
+  color: #fff;
+  width: 2em;
+  height: 2em;
+  background-color: #1886a85b;
+  border-radius: 50%;
+  padding: 0.1em 0.5em;
+  font-size: 0.7em;
+}
+
+.tournaments .tour-card .times-list {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+}
+
+.tournaments .tour-card .times-list li {
+  margin: 0.5em;
+  color: #ccc;
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=main.css.map */
