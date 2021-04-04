@@ -32,7 +32,7 @@ body {
 }
 
 .header .head-categories {
-  background-color: #333;
+  background-color: #222;
   color: #f1f1f1;
   overflow: hidden;
   text-align: right;
@@ -66,5 +66,33 @@ body {
   .header .head-categories {
     overflow-x: scroll;
   }
+  .header .head-categories .cat-list li {
+    font-size: 0.9em;
+  }
+}
+
+.news-cover {
+  padding: 2em 0;
+}
+
+.news-cover .cover {
+  background-image: url("../images/coverr.jpg");
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.news-cover .news {
+  background-color: rgba(129, 129, 129, 0.678);
+  border-radius: 10px;
+  padding: 0.5em;
+}
+
+.news-cover .news p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 0.9em;
+  margin: 0;
+  font-family: -webkit-pictograph;
 }
 /*# sourceMappingURL=main.css.map */

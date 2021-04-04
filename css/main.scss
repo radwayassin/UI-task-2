@@ -47,7 +47,7 @@ body {
     }
   }
   .head-categories {
-    background-color: #333;
+    background-color: #222;
     color: rgb(241, 241, 241);
     overflow: hidden;
     text-align: right;
@@ -64,13 +64,40 @@ body {
         i {
           margin: 0.2em;
         }
-        &.active{
-            color: #6fa31b;
+        &.active {
+          color: #6fa31b;
         }
       }
     }
     @media (max-width: 768px) {
       overflow-x: scroll;
+      .cat-list {
+        li {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+}
+// NewsCover Section
+.news-cover {
+  padding: 2em 0;
+  .cover {
+    background-image: url("../images/coverr.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+  }
+  .news {
+    background-color: rgba(129, 129, 129, 0.678);
+    border-radius: 10px;
+    padding: 0.5em;
+    p {
+      color: #fff;
+      font-weight: 300;
+      font-size: 0.9em;
+      margin: 0;
+      font-family: -webkit-pictograph;
     }
   }
 }
