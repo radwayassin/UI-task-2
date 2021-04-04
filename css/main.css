@@ -1,6 +1,7 @@
 body {
   background-color: #121212;
   font-family: "Changa", sans-serif;
+  padding-bottom: 10em;
 }
 
 .header .head-logo img {
@@ -94,5 +95,86 @@ body {
   font-size: 0.9em;
   margin: 0;
   font-family: -webkit-pictograph;
+}
+
+.champions {
+  background-color: #222;
+  direction: rtl;
+  padding: 2em 0;
+}
+
+.champions .champ-nav {
+  border-color: #6fa31b;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.champions .champ-nav .nav-link {
+  position: relative;
+  color: #ccc;
+}
+
+.champions .champ-nav .nav-link.active {
+  background-color: transparent;
+  color: #6fa31b;
+  border: none;
+}
+
+.champions .champ-nav .nav-link.active::after {
+  content: "\f0de";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 74%;
+  left: 50%;
+}
+
+.champions .champion-content .details {
+  color: #ccc;
+}
+
+.champions .champion-content .details img {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  margin-bottom: 0.5em;
+}
+
+.champions .champion-content .details p {
+  color: #6fa31b;
+  font-size: 0.9em;
+  margin-top: 0.7em;
+}
+
+.champions .champion-content .details p.right {
+  float: right;
+  color: #4f7216;
+}
+
+.champions .champion-content .details p.left {
+  float: left;
+  color: #4f7216;
+}
+
+.champions .champion-content .details h5 {
+  font-size: 1em;
+  background-color: #444;
+  padding: 0.5em 0.7em;
+  border-radius: 20px;
+  color: red;
+}
+
+.champions .champion-content .details a {
+  color: #6fa31b;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

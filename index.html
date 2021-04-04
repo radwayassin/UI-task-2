@@ -1,14 +1,13 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <title>UI Task with Bootstrap</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
@@ -17,7 +16,6 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
     <!-- Header Section -->
     <section class="header">
@@ -43,7 +41,6 @@
                 </div>
             </div>
         </div>
-
     </section>
     <!-- NewsCover Section -->
     <section class="news-cover">
@@ -60,18 +57,119 @@
             </div>
         </div>
     </section>
+    <!-- Champions time  -->
+    <section class="champions">
+        <div class="container-fluid">
+            <ul class="nav nav-tabs champ-nav" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="yesterday-tab" data-toggle="tab" href="#yesterday" role="tab"
+                        aria-controls="yesterday" aria-selected="true"> الأمس<span> 3Apr</span></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="today-tab" data-toggle="tab" href="#today" role="tab"
+                        aria-controls="today" aria-selected="false"> اليوم<span> 4Apr</span></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="tomorrow-tab" data-toggle="tab" href="#tomorrow" role="tab"
+                        aria-controls="tomorrow" aria-selected="false">غدا<span> 5Apr</span></a>
+                </li>
+            </ul>
+            <div class="tab-content champion-content" id="myTabContent">
+                <div class="tab-pane fade " id="yesterday" role="tabpanel" aria-labelledby="yesterday-tab">
+                    <div class="row">
+                        <div class="offset-md-3"></div>
+                        <div class="col-md-6 details text-center">
+                            <p>بطولة الأمم الأفريقيه</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="images/flag.png" alt="">
+                                    <h6>مصر</h6>
+                                    <p class="right">يعرض على osn</p>
+                                </div>
+                                <div class="col-4">
+                                    <h5>لم تبدأ</h5>
+                                    <p>5 مساءا</p>
+                                </div>
+                                <div class="col-4">
+                                    <img src="images/flag.png" alt="">
+                                    <h6>مصر</h6>
+                                    <p class="left">استاد القاهرة</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <a href="">عرض كل البطولات</a>
+                        </div>
+                        <div class="offset-md-3"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show active" id="today" role="tabpanel" aria-labelledby="today-tab">
+                    <div class="row">
+                        <div class="offset-md-3"></div>
+                        <div class="col-md-6 details text-center">
+                            <p>بطولة الأمم الأفريقيه</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="images/flag.png" alt="">
+                                    <h6>مصر</h6>
+                                    <p class="right">يعرض على osn</p>
+                                </div>
+                                <div class="col-4">
+                                    <h5>لم تبدأ</h5>
+                                    <p>8 مساءا</p>
+                                </div>
+                                <div class="col-4">
+                                    <img src="images/flag.png" alt="">
+                                    <h6>مصر</h6>
+                                    <p class="left">استاد القاهرة</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <a href="">عرض كل البطولات</a>
+                        </div>
+                        <div class="offset-md-3"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tomorrow" role="tabpanel" aria-labelledby="tomorrow-tab">
+                    <div class="row">
+                        <div class="offset-md-3"></div>
+                        <div class="col-md-6 details text-center">
+                            <p>بطولة الأمم الأفريقيه</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="images/flag.png" alt="">
+                                    <h6>مصر</h6>
+                                    <p class="right">يعرض على osn</p>
+                                </div>
+                                <div class="col-4">
+                                    <h5>لم تبدأ</h5>
+                                    <p>10 مساءا</p>
+                                </div>
+                                <div class="col-4">
+                                    <img src="images/flag.png" alt="">
+                                    <h6>مصر</h6>
+                                    <p class="left">استاد القاهرة</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <a href="">عرض كل البطولات</a>
+                        </div>
+                        <div class="offset-md-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
     <script src="js/owl.carousel.min.js"></script>
 </body>
-
 </html>
