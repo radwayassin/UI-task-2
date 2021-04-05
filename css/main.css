@@ -413,4 +413,10 @@ body {
 .nav-sec .navbar .navbar-toggler span {
   margin: 0.5em 0;
 }
+
+@media (min-width: 991px) {
+  .nav-sec .navbar .navbar-nav {
+    display: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */

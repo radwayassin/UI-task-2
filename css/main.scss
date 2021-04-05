@@ -372,5 +372,9 @@ body {
         margin: 0.5em 0;
       }
     }
+    .navbar-nav{
+      @media(min-width: 991px){
+      display: none;}
+    }
   }
 }
