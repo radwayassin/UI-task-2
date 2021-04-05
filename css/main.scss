@@ -1,7 +1,6 @@
 body {
   background-color: #121212;
   font-family: "Changa", sans-serif;
-  padding-bottom: 10em;
 }
 .header {
   .head-logo {
@@ -336,6 +335,41 @@ body {
       li {
         font-size: 0.7em;
         margin: 0.3em;
+      }
+    }
+  }
+}
+// Navbar Section
+.nav-sec {
+  direction: rtl;
+  text-align: right;
+  .navbar {
+    background-color: #222;
+    .main-nav {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: inline-flex;
+      width: 80%;
+      .nav-item {
+        .nav-link {
+          color: #ccc;
+          font-size: 0.8em;
+        }
+        &.active {
+          .nav-link {
+            color: #6fa31b;
+          }
+        }
+      }
+    }
+    .navbar-toggler {
+      border: none;
+      font-size: 0.8em;
+      color: #ccc;
+      margin-top: -1em;
+      span {
+        margin: 0.5em 0;
       }
     }
   }

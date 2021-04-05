@@ -1,7 +1,6 @@
 body {
   background-color: #121212;
   font-family: "Changa", sans-serif;
-  padding-bottom: 10em;
 }
 
 .header .head-logo img {
@@ -374,5 +373,44 @@ body {
 .studio .studio-card .card-list li {
   font-size: 0.7em;
   margin: 0.3em;
+}
+
+.nav-sec {
+  direction: rtl;
+  text-align: right;
+}
+
+.nav-sec .navbar {
+  background-color: #222;
+}
+
+.nav-sec .navbar .main-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 80%;
+}
+
+.nav-sec .navbar .main-nav .nav-item .nav-link {
+  color: #ccc;
+  font-size: 0.8em;
+}
+
+.nav-sec .navbar .main-nav .nav-item.active .nav-link {
+  color: #6fa31b;
+}
+
+.nav-sec .navbar .navbar-toggler {
+  border: none;
+  font-size: 0.8em;
+  color: #ccc;
+  margin-top: -1em;
+}
+
+.nav-sec .navbar .navbar-toggler span {
+  margin: 0.5em 0;
 }
 /*# sourceMappingURL=main.css.map */
