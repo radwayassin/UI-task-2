@@ -16,3 +16,5 @@ the fifth section contains cards of our news,
 the sixth section contains a slider of cards that contains our studios,
 
 and the final section contains our navbar with a set of buttons to navigate.
+
+# https://radwayassin.github.io/UI-task-2/
